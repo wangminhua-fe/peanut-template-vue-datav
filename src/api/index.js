@@ -57,3 +57,15 @@ const post = (url, params, config = {}) => api.post(url, params, config);
 const put = (url, params, config = {}) => api.pust(url, params, config);
 
 export default { get, post, del, put };
+
+// api 接口调用示例
+// this.$api
+//   .get(this.$serverConfig.getTestData, {
+//     /* 参数对象 */
+//   })
+//   .then(res => {
+//     console.log(res);
+//   })
+//   .catch(res => {
+//     console.log('error:', res);
+//   });
